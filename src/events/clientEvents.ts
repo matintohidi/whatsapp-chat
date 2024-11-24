@@ -44,6 +44,12 @@ const setupClientEvents = (client: Client): void => {
             console.error(err);
         }
     });
+
+    client.on("message_create" , async (msg: Message) => {
+      if(msg.id.fromMe) {
+        console.log(msg.body)
+      }
+    })
 };
 
 export default setupClientEvents;
