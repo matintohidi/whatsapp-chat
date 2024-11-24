@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES6",         // JavaScript version to compile to
+    "module": "commonjs",    // Module system (CommonJS for Node.js)
+    "outDir": "./dist",      // Output directory for compiled files
+    "rootDir": "./",      // Root directory for TypeScript files
+    "strict": true,          // Enable strict type-checking
+    "esModuleInterop": true  // Allow default imports from modules without default exports
+  },
+  "include": [
+    "src/**/*.ts"            // Include all TypeScript files in the src directory
+  ],
+  "exclude": [
+    "node_modules"           // Exclude node_modules
+  ]
+}

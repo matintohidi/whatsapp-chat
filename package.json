@@ -5,13 +5,17 @@
   "author": "Matin Tohidi",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon index.js"
+    "dev": "ts-node src/main.ts"
   },
   "dependencies": {
     "express": "^4.21.1",
     "whatsapp-web.js": "^1.26.0"
   },
   "devDependencies": {
-    "nodemon": "^3.1.7"
+    "@types/express": "^5.0.0",
+    "nodemon": "^3.1.7",
+    "puppeteer": "^23.9.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
   }
 }
